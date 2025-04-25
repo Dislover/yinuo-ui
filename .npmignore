@@ -1,0 +1,9 @@
+.git
+.gitignore
+node_modules
+examples
+src
+*.log
+.DS_Store
+vite.config.js
+index.html 

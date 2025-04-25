@@ -1,0 +1,199 @@
+/* 布局类 */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* 间距类 */
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: var(--spacing-extra-small);
+}
+
+.m-2 {
+    margin: var(--spacing-small);
+}
+
+.m-3 {
+    margin: var(--spacing-base);
+}
+
+.m-4 {
+    margin: var(--spacing-large);
+}
+
+.m-5 {
+    margin: var(--spacing-extra-large);
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: var(--spacing-extra-small);
+}
+
+.p-2 {
+    padding: var(--spacing-small);
+}
+
+.p-3 {
+    padding: var(--spacing-base);
+}
+
+.p-4 {
+    padding: var(--spacing-large);
+}
+
+.p-5 {
+    padding: var(--spacing-extra-large);
+}
+
+/* 文字类 */
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-regular {
+    color: var(--text-regular);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.text-placeholder {
+    color: var(--text-placeholder);
+}
+
+.text-xs {
+    font-size: var(--font-size-extra-small);
+}
+
+.text-sm {
+    font-size: var(--font-size-small);
+}
+
+.text-base {
+    font-size: var(--font-size-base);
+}
+
+.text-md {
+    font-size: var(--font-size-medium);
+}
+
+.text-lg {
+    font-size: var(--font-size-large);
+}
+
+.text-xl {
+    font-size: var(--font-size-extra-large);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-secondary);
+}
+
+.font-medium {
+    font-weight: var(--font-weight-primary);
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* 边框类 */
+.border {
+    border: 1px solid var(--border-color);
+}
+
+.border-light {
+    border: 1px solid var(--border-light);
+}
+
+.rounded {
+    border-radius: var(--border-radius-base);
+}
+
+.rounded-sm {
+    border-radius: var(--border-radius-small);
+}
+
+.rounded-lg {
+    border-radius: var(--border-radius-round);
+}
+
+.rounded-full {
+    border-radius: var(--border-radius-circle);
+}
+
+/* 阴影类 */
+.shadow {
+    box-shadow: var(--box-shadow-base);
+}
+
+.shadow-light {
+    box-shadow: var(--box-shadow-light);
+}
+
+.shadow-dark {
+    box-shadow: var(--box-shadow-dark);
+}
+
+/* 过渡动画 */
+.transition {
+    transition: all var(--transition-duration) var(--transition-timing-function);
+}
+
+/* 其他通用类 */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.hidden {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}

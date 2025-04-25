@@ -1,0 +1,43 @@
+{
+  "name": "yinuo-ui",
+  "version": "1.0.0",
+  "description": "A Vue 3 UI Component Library",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "components",
+    "ui",
+    "button"
+  ],
+  "author": "一诺",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dislover/yinuo-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dislover/yinuo-ui/issues"
+  },
+  "homepage": "https://github.com/Dislover/yinuo-ui#readme",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.12"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  }
+}

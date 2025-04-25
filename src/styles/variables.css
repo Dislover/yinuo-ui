@@ -1,0 +1,92 @@
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --black: #000000;
+
+    /* Primary Colors */
+    --primary-color: #409eff;
+    --primary-light-color: #ecf5ff;
+    --primary-hover-color: #66b1ff;
+    --primary-active-color: #3a8ee6;
+
+    /* Success Colors */
+    --success-color: #67c23a;
+    --success-light-color: #f0f9eb;
+    --success-hover-color: #85ce61;
+    --success-active-color: #5daf34;
+
+    /* Warning Colors */
+    --warning-color: #e6a23c;
+    --warning-light-color: #fdf6ec;
+    --warning-hover-color: #ebb563;
+    --warning-active-color: #cf9236;
+
+    /* Danger Colors */
+    --danger-color: #f56c6c;
+    --danger-light-color: #fef0f0;
+    --danger-hover-color: #f78989;
+    --danger-active-color: #dd6161;
+
+    /* Text Colors */
+    --text-primary: #303133;
+    --text-regular: #606266;
+    --text-secondary: #909399;
+    --text-placeholder: #c0c4cc;
+    --text-white: #ffffff;
+
+    /* Border Colors */
+    --border-color: #dcdfe6;
+    --border-light-color: #e4e7ed;
+    --border-lighter-color: #ebeef5;
+    --border-extra-light-color: #f2f6fc;
+
+    /* Background Colors */
+    --background-white: #ffffff;
+    --background-black: #000000;
+    --background-primary: #f5f7fa;
+    --background-secondary: #f5f7fa;
+
+    /* Button Colors */
+    --button-bg: var(--white);
+    --button-text-color: var(--text-regular);
+    --button-border-color: var(--border-color);
+
+    /* Disabled Colors */
+    --disabled-bg-color: var(--background-primary);
+    --disabled-text-color: var(--text-placeholder);
+    --disabled-border-color: var(--border-light-color);
+
+    /* Font */
+    --font-size-extra-large: 20px;
+    --font-size-large: 18px;
+    --font-size-medium: 16px;
+    --font-size-base: 14px;
+    --font-size-small: 13px;
+    --font-size-extra-small: 12px;
+
+    /* Font Weight */
+    --font-weight-primary: 500;
+    --font-weight-secondary: 400;
+
+    /* Border Radius */
+    --border-radius-base: 4px;
+    --border-radius-small: 2px;
+    --border-radius-round: 20px;
+    --border-radius-circle: 100%;
+
+    /* Spacing */
+    --spacing-extra-small: 4px;
+    --spacing-small: 8px;
+    --spacing-base: 12px;
+    --spacing-large: 16px;
+    --spacing-extra-large: 24px;
+
+    /* Animation */
+    --transition-duration: 0.3s;
+    --transition-timing-function: ease-in-out;
+
+    /* 信息色 */
+    --info-color: #909399;
+    --info-hover: #a6a9ad;
+    --info-active: #82848a;
+}
