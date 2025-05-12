@@ -89,4 +89,19 @@
     --info-color: #909399;
     --info-hover: #a6a9ad;
     --info-active: #82848a;
+    
+    /* Table Colors */
+    --table-header-bg: var(--background-primary);
+    --table-header-color: var(--text-secondary);
+    --table-row-hover-bg: var(--background-secondary);
+    --table-border-color: var(--border-light-color);
+    --table-stripe-bg: var(--background-primary);
+    
+    /* Table Spacing */
+    --table-cell-padding: 12px 16px;
+    --table-header-padding: 12px 16px;
+    
+    /* Table Font */
+    --table-font-size: var(--font-size-base);
+    --table-header-font-weight: var(--font-weight-primary);
 }
