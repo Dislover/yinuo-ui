@@ -1,3 +1,7 @@
+import Button from './components/Button.vue'
+import Table from './components/Table.vue'
+import Anchor from './components/Anchor.vue'
+import Pagination from './components/Pagination.vue'
 import MyButton from "./components/Button.vue";
 import MyIcon from "./components/Icon.vue";
 import "./styles/index.css";
@@ -21,4 +25,10 @@ export default {
 };
 
 // 导出单个组件
-export { MyButton, MyIcon };
+export {
+  Button,
+  Table,
+  Anchor,
+  Pagination,
+  MyButton, MyIcon
+};
